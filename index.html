@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bahrain Menus</title>
+
+		<style type="text/css">
+			body {
+				margin: 0;
+				font-family: Arial, Helvetica, sans-serif;
+				text-transform: uppercase;
+			}
+			h1, h2, h3, h4, h5, h6 {
+				color: #004ECD;
+			}
+			.break {
+				clear: both;
+			}
+			#top {
+				width: 100%;
+				height: 90px;
+				padding: 8px 0 0 14px;
+			}
+			.fixedWidth {
+				width: 1000px;
+				margin: 0 auto;
+			}
+			ul {
+				list-style: none;
+			}
+			#top ul, #top li {
+				float: right;
+			}
+			#top li {
+				padding-right: 25px;
+				padding-top: 10px;
+				font-size: 0.9em;
+			}
+			#top ul {
+				padding-right: 25px;
+			}
+			#navbar {
+				background: -webkit-linear-gradient(#004EC2, #033683);
+				background: linear-gradient(#004EC2, #033683);
+				width: 100%;
+				height: 30px;
+				border: 0.5px solid #000000;
+				border-radius: 10px;
+				color: #FFFFFF;
+				padding: 7px 0 0 25px;
+			}
+			#navbar label {
+				padding-left: 20px;
+			}
+			#goBtn {
+				margin-left: 10px;
+				width: 20px;
+				height: 20px;
+				text-align: left;
+				font-size: 0.7em;
+				padding: 0 4px 0 0;
+			}
+			li a {
+				text-decoration: none;
+				color: #0064D1;
+			}
+			#content {
+				padding: 15px 0 0 60px;
+			}
+			#content a {
+				color: #004ECD;
+				text-decoration: none;
+			}
+			.highLight img {
+				width: 250px;
+				height: 250px;
+				border: 2px double #000000;
+			}
+			.sec {
+				text-align: center;
+				float: left;
+				font-size: 1em;
+				margin-left: 50px;
+			}
+			.subname {
+				font-style: italic;
+				color: #5E5E5E;
+			}
+			#footer {
+				color: #5E5E5E;
+				border-top: 2px double #000000;
+			}
+			#col1 {
+				width: 60%;
+				float: left;
+			}
+			#col2 {
+				width: 40%;
+				float: right;
+				text-align: right;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div id="container">
+			<div class="fixedWidth">
+				<div id="top">
+						<img src="images/logo.png" />
+						<ul>
+							<li><a href="">Contact Us</a></li>
+							<li><a href="">Reviews</a></li>
+							<li><a href="">Browse</a></li>
+							<li><a href="">About Us</a></li>
+							<li><a href="">Home</a></li>
+						</ul>
+
+						<div class="break"></div>
+
+						<div id="navbar">
+
+							<label>Name:</label>
+							<input type="text" placeholder="type restuarant name" />
+
+							<label>Area:</label>
+							<select>
+								<option>All</option>
+								<option>Muharraq</option>
+								<option>Manama</option>
+								<option>Riffa</option>
+								<option>Arad</option>
+								<option>Hidd</option>
+								<option>Qalali</option>
+								<option>Samaheej</option>
+								<option>Dair</option>
+								<option>Isa Town</option>
+								<option>Hamad Town</option>
+							</select>
+
+							<label>Type:</label>
+							<select>
+								<option>Any</option>
+								<option>Fast Food</option>
+								<option>Traditional</option>
+								<option>Cultural</option>
+								<option>Sweets</option>
+								<option>Italian</option>
+								<option>American</option>
+								<option>Sandwiches</option>
+								<option>Pastries</option>
+								<option>Cafe</option>
+								<option>Bakery</option>
+							</select>
+
+							<label>Delivery:</label>
+							<select>
+								<option>Any</option>
+								<option>Yes</option>
+								<option>No</option>
+							</select>
+
+							<input type="button" value="Go" id="goBtn" />
+						</div>
+					<!-- END of TOP -->
+				</div>
+
+				<div class="break"></div>
+
+				<div id="content">
+						<h3>Restaurant Highlights</h3>
+						<div class="highLight">
+							<div class="sec">
+								<img src="images/almerraj-restuarant.jpeg" />
+								<p><a href="#">Merraj Restaurant</a></p>
+							</div>
+							<div class="sec">
+								<img src="images/burger-king.jpg" />
+								<p><a href="#">Burger King</a></p>
+							</div>
+							<div class="sec">
+								<img src="images/deccan-biryani.jpg" />
+								<p><a href="#">Deccan Biryani</a></p>
+							</div>
+						</div>
+						<div class="break"></div>
+						<hr/>
+						<h3>Our Fearless Leaders</h3>
+						<div class="highLight">
+							<div class="sec">
+								<img src="images/Sheikh-Merraj.jpg" />
+								<p><a href="#">Shekh Merraj</a></p>
+								<p class="subname">Supreme Leader</p>
+							</div>
+							<div class="sec">
+								<img src="images/shawn-michaels.png" />
+								<p><a href="#">Shawn Michaels</a></p>
+								<p class="subname">CEO of M.E</p>
+							</div>
+							<div class="sec">
+								<img src="images/shahruhkhan.jpg" />
+								<p><a href="#">Shahruh Khan</a></p>
+								<p class="subname">Senior Advisor of M.E</p>
+							</div>
+						</div>
+						<div class="break"></div>
+
+					<!-- END OF CONTENT -->
+				</div>
+
+				<br />
+				<br />
+				<br />
+			
+				<div id="footer">
+					<div id="col1">
+						<p>Copyright 2017&copy; All Rights Reserved</p>
+						<p>Property of Merraj Establishment</p>
+					</div>
+					<div id="col2">
+						<h4>Extra Links</h4>
+						<ul>
+							<li>Link 1</li>
+							<li>Link 2</li>
+							<li>Link 3</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- END of CONTAINER -->
+		</div>
+
+	</body>
+</html>
